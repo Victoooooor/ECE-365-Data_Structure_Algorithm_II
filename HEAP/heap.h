@@ -1,3 +1,6 @@
+#ifndef _HEAP_H
+#define _HEAP_H
+
 #include <iostream>
 #include <vector>
 #include "hash.h"
@@ -27,3 +30,5 @@ private:
     void percolateDown(int posCur); //check
     int getPos(node *pn); //check
 };
+
+#endif
